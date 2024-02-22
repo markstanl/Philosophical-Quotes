@@ -7,7 +7,7 @@ from quotes import quotes  # Assuming quotes is a list of quotes
 
 app = Flask(__name__)
 
-@app.route('/generate_image', methods=['POST'])
+@app.route('/generate_image', methods=['GET'])  # Change the method to GET
 def generate_image():
     if not quotes:
         return "No quotes available", 500  # Return an error response if quotes list is empty
