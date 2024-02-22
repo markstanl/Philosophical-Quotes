@@ -1,3 +1,5 @@
+# app.py
+
 from flask import Flask, send_file
 from PIL import Image, ImageDraw, ImageFont
 from textwrap import wrap
@@ -53,7 +55,7 @@ def generate_image():
     else:
         x_distance = 80
         size=25
-    
+
     author_font = ImageFont.truetype(author_font_path, size=size)
     # Calculate the height of the text box
     text_height = sum(draw.textbbox((0, 0), line, font=quote_font)[3] - draw.textbbox((0, 0), line, font=quote_font)[1] for line in wrapped_quote)
@@ -85,4 +87,4 @@ def generate_image():
     return send_file(output_image_path, mimetype='image/jpeg')
 
 if __name__ == "__main__":
-    app.run(debug=True)  # For development purposes, switch to False in production
+    app.run()
