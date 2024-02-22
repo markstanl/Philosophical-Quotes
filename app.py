@@ -16,15 +16,15 @@ def generate_image():
     #quote = quotes[-1][0]
 
     # Load background image
-    image_path = "C:/Users/markt/OneDrive/Desktop/Professional/First API/background.jpg"
+    image_path = "./background.jpg"
     background_image = Image.open(image_path)
 
     # Create drawing context
     draw = ImageDraw.Draw(background_image)
 
     # Define font and size
-    quote_font_path = "C:/Users/markt/OneDrive/Desktop/Professional/First API/Philosopher-Italic.ttf"
-    author_font_path = "C:/Users/markt/OneDrive/Desktop/Professional/First API/Rambla-Italic.ttf"
+    quote_font_path = "./Philosopher-Italic.ttf"
+    author_font_path = "./Rambla-Italic.ttf"
     quote_font_size = 0
     if len(quote) < 100:
         quote_font_size = 30
