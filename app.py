@@ -7,13 +7,12 @@ from quotes import quotes  # Assuming quotes is a list of quotes
 
 app = Flask(__name__)
 
-@app.route('/generate_image', methods=['GET'])  # Change the method to GET
+@app.route('/generate_image', methods=['GET'])
 def generate_image():
     if not quotes:
         return "No quotes available", 500  # Return an error response if quotes list is empty
     quote, author = random.choice(quotes)
     author = f'- {author}'
-    #quote = quotes[-1][0]
 
     # Load background image
     image_path = "./background.jpg"
@@ -66,8 +65,7 @@ def generate_image():
     # Set text color
     text_color = (255, 255, 255)  # White color
     draw.text((x_distance, 175), author, fill=text_color, font=author_font) # Draw the author's name on the image
-    text_color = (171, 210, 0)  # Neone Green Color color
-
+    text_color = (171, 210, 0)  # Neon Green Color
 
     for line in wrapped_quote:
         # Calculate x position for this line
@@ -78,8 +76,6 @@ def generate_image():
 
         # Update the y position for the next line
         quote_y += draw.textbbox((0, 0), line, font=quote_font)[3] - draw.textbbox((0, 0), line, font=quote_font)[1]
-
-    
 
     # Save the modified image
     output_image_path = os.path.join(os.getcwd(), "output_image.jpg")
