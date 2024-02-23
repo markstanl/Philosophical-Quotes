@@ -18,7 +18,7 @@ quotes = [
     ["\"The gazelle and the lion are enemies only in the minds of the Takers. The lion that comes across a herd of gazelles doesn’t massacre them, as an enemy would. It kills one, not to satisfy its hatred of gazelles but to satisfy its hunger, and once it has made its kill the gazelles are perfectly content to go on grazing with the lion right in their midst.\"","Daniel Quinn"],
     ["\"The premise of the Taker story is 'the world belongs to man'. … The premise of the Leaver story is 'man belongs to the world'.\"", "Daniel Quinn"],
     ["\"The principles of justice are chosen behind a veil of ignorance.\"", "John Rawls"],
-    ["\We strive for the best we can attain within the scope the world allows.\"", "John Rawls"],
+    ["\"We strive for the best we can attain within the scope the world allows.\"", "John Rawls"],
     ["\"Generally speaking, the errors in religion are dangerous; those in philosophy only ridiculous.\"", "David Hume"],
     ["\"Be a philosopher; but, amidst all your philosophy, be still a man.\"", "David Hume"],
     ["\"Cogito ergo sum.\"", "René Descartes"],
