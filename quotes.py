@@ -16,7 +16,6 @@ quotes = [
     ["\"Live your life as though your every act were to become a universal law.\"", "Immanuel Kant"],
     ["\"The wise man can change his mind; the stubborn one, never.\"", "Immanuel Kant"],
     ["\"The gazelle and the lion are enemies only in the minds of the Takers. The lion that comes across a herd of gazelles doesn’t massacre them, as an enemy would. It kills one, not to satisfy its hatred of gazelles but to satisfy its hunger, and once it has made its kill the gazelles are perfectly content to go on grazing with the lion right in their midst.\"","Daniel Quinn"],
-    ["\"WITH GORILLA GONE, WILL THERE BE HOPE FOR MAN?\"", "Daniel Quinn"],
     ["\"The premise of the Taker story is 'the world belongs to man'. … The premise of the Leaver story is 'man belongs to the world'.\"", "Daniel Quinn"],
     ["\"The principles of justice are chosen behind a veil of ignorance.\"", "John Rawls"],
     ["\We strive for the best we can attain within the scope the world allows.\"", "John Rawls"],
