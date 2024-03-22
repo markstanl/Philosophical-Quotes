@@ -33,6 +33,10 @@ quotes = [
     ["\"The limits of my language means the limits of my world.\"", "Ludwig Wittgenstein"],
     ["\"Whereof one cannot speak, thereof one must be silent.\"", "Ludwig Wittgenstein"],
     ["\"Revolt is the right of the people\"", "Jean-Jacques Rousseau"],
+    ["\"What we must do is bring nonhuman animals within our sphere of moral concern and cease to treat their lives as expendable for our ends.\"", "Peter Singer"],
+    ["\"We are, quite literally, gambling with the future of our planet - for the sake of hamburgers\"", "Peter Singer"],
+    ["\"Putting yourself in the place of others... is what thinking ethically is all about..\"", "Peter Singer"],
+    ["\"We are all atheists about most of the gods that humanity has ever believed in. Some of us just go one god further.\"", "Richard Dawkins"],
     
 
 

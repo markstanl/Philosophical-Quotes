@@ -1,0 +1,13 @@
+[Unit]
+Description=My Flask Application
+After=network.target
+
+[Service]
+User=ubuntu  # Change this to your username
+WorkingDirectory=/path/to/your/application
+Environment="PATH=/path/to/python/bin"
+ExecStart=/path/to/python/bin/gunicorn -w 4 -b 0.0.0.0:4000 wsgi:app
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
